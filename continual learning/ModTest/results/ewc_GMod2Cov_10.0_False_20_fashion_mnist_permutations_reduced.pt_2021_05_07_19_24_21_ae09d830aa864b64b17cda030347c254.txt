@@ -1,0 +1,17 @@
+{'n_tasks': 10, 'model': 'ewc_GMod2Cov', 'n_hiddens': 100, 'n_layers': 2, 'finetune': True, 'n_epochs': 1, 'batch_size': 1, 'lr': 0.01, 'n_memories': 10, 'memory_strength': 10.0, 'memories': 200, 'gamma': 1.0, 'batches_per_example': 10.0, 's': 1, 'replay_batch_size': 10.0, 'beta': 0.03, 'cuda': False, 'seed': 3, 'log_every': 100, 'save_path': 'results/', 'data_path': 'data/', 'data_file': 'fashion_mnist_permutations_reduced.pt', 'samples_per_task': 1000, 'shuffle_tasks': 'no', 'divergence': 'von_Neumann', 'num_groups': 20, 'if_output_cov': False, 'cov_recompute_every': 20, 'cov_first_task_buffer': 100, 'create_random_groups': False, 'create_group_per_unit': False, 'forgetting_mode': False, 'forgetting_task_ids': '0,5', 'forgetting_resee_size': 100, 'sign_attacked': -1.0, 'gem_reverse': True, 'gem_sub_mean': True, 'gem_ignore_relatedness': False, 'ewc_reverse': False, 'recompute_groups_every_task': False, 'create_mod_independent_groups': False, 'create_mod_independent_groups_first_task': False, 'create_mod_independent_groups_last_tasks': False, 'create_mod_independent_groups_all_tasks': False, 'is_omniglot': False}
+0.0470 0.1682 0.1449 0.1051 0.1369 0.1520 0.0532 0.1379 0.1100 0.0322
+|
+0.7113 0.0944 0.1177 0.1740 0.1363 0.0949 0.1784 0.1826 0.1790 0.1175
+0.6948 0.7010 0.1292 0.1596 0.1301 0.1056 0.1256 0.1653 0.2097 0.1480
+0.6923 0.6958 0.7098 0.1566 0.1382 0.0887 0.1310 0.1584 0.1554 0.1423
+0.6969 0.6819 0.7208 0.6883 0.1417 0.1240 0.1395 0.1448 0.1551 0.1400
+0.6597 0.7008 0.6698 0.7187 0.6784 0.0989 0.1408 0.1709 0.1739 0.1527
+0.6121 0.6375 0.5957 0.6631 0.6470 0.6491 0.1397 0.1269 0.1555 0.1459
+0.6624 0.5970 0.6960 0.6772 0.6895 0.7115 0.6851 0.0749 0.1648 0.1269
+0.6530 0.6245 0.6177 0.6908 0.6145 0.6148 0.7094 0.6921 0.1828 0.1213
+0.6669 0.5718 0.5849 0.5410 0.5773 0.5792 0.5876 0.5955 0.6473 0.1100
+0.6996 0.6155 0.6653 0.6837 0.6274 0.6851 0.6420 0.6942 0.6914 0.7264
+
+Final Accuracy: 0.6731
+Backward: -0.0158
+Forward:  0.0088

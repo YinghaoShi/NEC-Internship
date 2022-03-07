@@ -1,0 +1,4 @@
+{'n_tasks': 4, 'n_hiddens': 100, 'n_layers': 2, 'finetune': True, 'n_epochs': 1, 'batch_size': 1, 'lr': 0.0001, 'meta_lambda': 1000, 'num_samples_per_class': 1, 'n_memories': 0, 'memory_strength': 0, 'memories': 5120, 'cuda': False, 'seed': 4, 'log_every': 100, 'save_path': 'results', 'data_path': 'data', 'data_file': 'notmnist_permutation.pt', 'samples_per_task': 50, 'shuffle_tasks': 'no'}
+Reuslts
+============
+[[0.08917928], [0.10006878, 0.10006878], [0.10006878, 0.10006878, 0.10087116], [0.123796426, 0.15417239, 0.12815222, 0.15359926]]
